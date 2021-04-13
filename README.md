@@ -22,10 +22,8 @@ The follwing is a sample with basic default repsonses in it.
 POSTGRES_DB="postgres"
 POSTGRES_USER="admin"
 POSTGRES_PASSWORD="password"
-POSTGRES_PORTS="5432:5432"
 
 PGADMIN_DEFAULT_EMAIL="user@email.com"
 PGADMIN_DEFAULT_PASSWORD="password"
 PGADMIN_LISTEN_PORT=8080
-PGADMIN_PORTS="8080:8080"
 ```
