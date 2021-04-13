@@ -19,11 +19,11 @@ This folder contains the pgAdmin data files
 The follwing is a sample with basic default repsonses in it.
 
 ```.env
-POSTGRES_DB="postgres"
-POSTGRES_USER="admin"
-POSTGRES_PASSWORD="password"
+POSTGRES_DB=postgres
+POSTGRES_USER=admin
+POSTGRES_PASSWORD=password
 
-PGADMIN_DEFAULT_EMAIL="user@email.com"
-PGADMIN_DEFAULT_PASSWORD="password"
+PGADMIN_DEFAULT_EMAIL=user@email.com
+PGADMIN_DEFAULT_PASSWORD=password
 PGADMIN_LISTEN_PORT=8080
 ```
