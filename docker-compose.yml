@@ -11,7 +11,7 @@ services:
     volumes:
       - ./db-data:/var/lib/postgresql/data
     ports:
-      - ${POSTGRES_PORTS}
+      - 5432:5432
     networks:
       - db-lan
  
@@ -23,7 +23,7 @@ services:
       PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
       PGADMIN_LISTEN_PORT: ${PGADMIN_LISTEN_PORT}
     ports:
-      - ${PGADMIN_PORTS}
+      - 8080:8080
     volumes:
       - ./pgadmin-data:/var/lib/pgadmin
     links:
